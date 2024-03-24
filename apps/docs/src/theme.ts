@@ -3,7 +3,7 @@ import { type AppTheme as Theme, createAppTheme } from '@arwes/react';
 const theme = createAppTheme({
   settings: {
     hues: {
-      primary: 180,
+      primary: 120,
       secondary: 60
     },
     fontFamilies: {
