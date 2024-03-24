@@ -37,7 +37,7 @@ const Page = (): ReactElement => {
 
       <PageContentLayout animated={aa('y', 12, 0)}>
         <Animator>
-          <Text as='h1' fixed>Futuristic Sci-Fi UI Web Framework</Text>
+          <Text as='h1' fixed>0 Knowledge Network</Text>
           <BleepsOnAnimator<BleepNames> transitions={{ entering: 'content' }} continuous />
         </Animator>
         <Animator>
@@ -76,7 +76,10 @@ const Page = (): ReactElement => {
           </Animated>
         </Animator>
         <Animator>
-          <Text>Arwes is a web framework to build user interfaces based on futuristic science fiction designs, animations, and sound effects. The concepts behind are opinionated with influences from <a href="https://aesthetics.fandom.com/wiki/Cyberprep" target='_blank'>Cyberprep</a> and <a href="https://en.wikipedia.org/wiki/Synthwave" target='_blank'>Synthwave</a>, and productions like <a href="http://robertsspaceindustries.com" target='_blank'>Star Citizen</a>, <a href="https://www.halowaypoint.com" target='_blank'>Halo</a>, and <a href="http://www.imdb.com/title/tt1104001" target='_blank'>TRON: Legacy</a>. It tries to inspire advanced science and technology.</Text>
+          <Text>A Decentralized Privacy Network Substrate<br></br>
+0KN is a next generation decentralized privacy initiative that is capable of delivering a truly metadata-private internet layer to the world with capabilities not available in other existing systems. With a modular design, 0KN provides a decentralized incentivized substrate to empower a multitude of mix-nets and compatible applications with private interactions.
+
+The network does not, and can not, know the nature of the data transmitting within it, thus the network is described as having "Zero Knowledge". Furthermore, Zero-Knowledge technologies are used for 1) privacy-preserving access and interactions within the network's decentralization and reward mechanisms, 2) effective means of scaling transactions, and 3) increased number of full nodes to enhance decentralization and health of the system.</Text>
         </Animator>
         <Animator>
           <Animated as='blockquote' animated={aaVisibility()}>
