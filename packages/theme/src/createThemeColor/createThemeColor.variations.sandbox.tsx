@@ -7,11 +7,11 @@ const colors = [
   // Variations of hue.
   createThemeColor(i => [i * 18, 50, 50, 1]),
   // Variations of saturation.
-  createThemeColor(i => [180, i * 5, 50, 1]),
+  createThemeColor(i => [120, i * 5, 50, 1]),
   // Variations of lightness.
-  createThemeColor(i => [180, 50, i * 5, 1]),
+  createThemeColor(i => [120, 50, i * 5, 1]),
   // Variations of opacity.
-  createThemeColor(i => [180, 50, 50, i * 0.05])
+  createThemeColor(i => [120, 50, 50, i * 0.05])
 ];
 
 const Sandbox = (): ReactElement => {

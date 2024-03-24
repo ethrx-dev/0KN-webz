@@ -55,7 +55,7 @@ const themeDefaults: ThemeSettings = {
   ],
   color: {
     // A function to return a HSLA value as [number, number, number, number?].
-    primary: i => [180, 70, i * 5, 1],
+    primary: i => [120, 70, i * 5, 1],
     secondary: i => [60, 70, i * 5, 1]
   }
 };
