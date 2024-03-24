@@ -28,11 +28,11 @@ export const frames = style({
 export const frame1 = style({});
 
 globalStyle(`${frame1} [data-name=bg]`, {
-  color: 'hsla(180, 100%, 7%, 0.5)'
+  color: 'hsla(120, 100%, 7%, 0.5)'
 });
 
 globalStyle(`${frame1} [data-name=line]`, {
-  color: 'hsla(180, 100%, 15%, 0.5)'
+  color: 'hsla(120, 100%, 15%, 0.5)'
 });
 
 export const frame2 = style({});
@@ -42,7 +42,7 @@ globalStyle(`${frame2} [data-name=bg]`, {
 });
 
 globalStyle(`${frame2} [data-name=line]`, {
-  color: 'hsla(180, 100%, 50%, 0.5)'
+  color: 'hsla(120, 100%, 50%, 0.5)'
 });
 
 export const content = style({

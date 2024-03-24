@@ -51,7 +51,7 @@ globalStyle(`${root} a:hover, ${root} button:hover`, {
 
 globalStyle(`${root} a:focus, ${root} button:focus`, {
   opacity: 1,
-  outline: '1px dotted hsl(180 100% 40% / 50%)'
+  outline: '1px dotted hsl(120 100% 40% / 50%)'
 });
 
 export const active = style({});

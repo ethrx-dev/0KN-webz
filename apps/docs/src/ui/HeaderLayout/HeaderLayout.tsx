@@ -28,7 +28,7 @@ const HeaderLayout = (props: HeaderLayoutProps): ReactElement => {
             role='presentation'
             className={cx(classes.frame, transition)}
           >
-            <Illuminator color='hsl(180 50% 50% / 10%)' size={400} />
+            <Illuminator color='hsl(120 50% 50% / 10%)' size={400} />
           </div>
         )}
         <Animated

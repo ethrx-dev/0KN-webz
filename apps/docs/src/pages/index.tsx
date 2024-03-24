@@ -84,8 +84,8 @@ const PageIndex = (): ReactElement => {
                   role='heading'
                   className='logo'
                   src='/logotype.png'
-                  alt='Arwes Project'
-                  title='Arwes Project'
+                  alt='0 Knownledge Network'
+                  title='0 Knowledge Network'
                 />
               </Animated>
             </Animator>
