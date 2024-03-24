@@ -7,7 +7,7 @@ import { createThemeColor } from '@arwes/theme';
 // See https://developer.mozilla.org/en-US/docs/web/css/color_value/hsla
 // This specific function will create values for 0 to 20 multiplier value provided
 // with variation of the lightness.
-const color = createThemeColor(i => [180, 75, i * 5, 1]);
+const color = createThemeColor(i => [120, 75, i * 5, 1]);
 
 const Sandbox = (): ReactElement => {
   return (
