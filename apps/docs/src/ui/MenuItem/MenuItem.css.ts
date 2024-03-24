@@ -17,7 +17,7 @@ globalStyle(`${root} a, ${root} button`, {
   alignItems: 'center',
   border: 'none',
   padding: '0 0.25rem',
-  color: 'hsl(180 82.31% 71.18%)',
+  color: 'hsl(120 82.31% 71.18%)',
   cursor: 'pointer',
   opacity: 0.8,
   transitionProperty: 'opacity, transform, outline, border, color, background',
@@ -33,7 +33,7 @@ globalStyle(`${root} a::before, ${root} button::before`, {
   left: 0,
   right: 0,
   bottom: 0,
-  borderTop: '1px solid hsl(180 82.31% 71.18%)',
+  borderTop: '1px solid hsl(120 82.31% 71.18%)',
   transform: 'scaleX(0)',
   transitionProperty: 'opacity, transform, outline, border, color, background',
   transitionDuration: '0.2s',
@@ -45,7 +45,7 @@ globalStyle(`${root} a:hover::before, ${root} button:hover::before`, {
 });
 
 globalStyle(`${root} a:hover, ${root} button:hover`, {
-  color: 'hsl(180 82.31% 81.18%)',
+  color: 'hsl(120 82.31% 81.18%)',
   opacity: 1
 });
 

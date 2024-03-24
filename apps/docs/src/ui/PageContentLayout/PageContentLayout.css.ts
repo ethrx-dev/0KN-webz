@@ -43,11 +43,11 @@ globalStyle(`${frame} path`, {
 });
 
 globalStyle(`${frame} [data-name=bg]`, {
-  color: 'hsla(180, 100%, 10%, 0.1)'
+  color: 'hsla(120, 100%, 10%, 0.1)'
 });
 
 globalStyle(`${frame} [data-name=line]`, {
-  color: 'hsla(180, 100%, 10%, 0.5)'
+  color: 'hsla(120, 100%, 10%, 0.5)'
 });
 
 export const overflow = style({

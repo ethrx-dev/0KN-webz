@@ -20,7 +20,7 @@ globalStyle(`${root} path`, {
 });
 
 globalStyle(`${root} [data-name=bg]`, {
-  color: 'hsla(180, 100%, 10%, 0.1)'
+  color: 'hsla(120, 100%, 10%, 0.1)'
 });
 
 globalStyle(`${root} [data-name=line]`, {
@@ -28,7 +28,7 @@ globalStyle(`${root} [data-name=line]`, {
 });
 
 globalStyle(`${root}:hover [data-name=bg]`, {
-  color: 'hsla(180, 100%, 10%, 0.2)'
+  color: 'hsla(120, 100%, 10%, 0.2)'
 });
 
 globalStyle(`${root}:hover [data-name=line]`, {
@@ -47,7 +47,7 @@ export const asset = style({
   display: 'block',
   overflow: 'hidden',
   paddingBottom: '75%',
-  backgroundColor: 'hsla(180, 100%, 9%, 1)',
+  backgroundColor: 'hsla(120, 100%, 9%, 1)',
   clipPath: createFrameOctagonClip({
     squareSize: '1rem',
     leftBottom: false,
@@ -74,15 +74,15 @@ export const title = style({
   display: 'block',
   margin: 0,
   fontSize: '1rem',
-  color: 'hsl(180deg 88.18% 56.86%)'
+  color: 'hsl(120deg 88.18% 56.86%)'
 });
 
 globalStyle(`${title} a`, {
-  color: 'hsl(180deg 88.18% 56.86%)'
+  color: 'hsl(120deg 88.18% 56.86%)'
 });
 
 globalStyle(`${title} a:hover`, {
-  color: 'hsl(180deg 88.18% 66.86%)'
+  color: 'hsl(120deg 88.18% 66.86%)'
 });
 
 export const children = style({
@@ -92,7 +92,7 @@ export const children = style({
 });
 
 globalStyle(`${children} a`, {
-  color: 'hsl(180deg 88.18% 45%)'
+  color: 'hsl(120deg 88.18% 45%)'
 });
 
 globalStyle(`${children} p`, {

@@ -61,10 +61,10 @@ export const version = style({
 });
 
 export const surfacePrimary = style({
-  backgroundColor: 'hsla(180deg, 100%, 50%, 0.02)',
+  backgroundColor: 'hsla(120deg, 100%, 50%, 0.02)',
 
   ':hover': {
-    backgroundColor: 'hsla(180deg, 100%, 50%, 0.04)'
+    backgroundColor: 'hsla(120deg, 100%, 50%, 0.04)'
   }
 });
 
